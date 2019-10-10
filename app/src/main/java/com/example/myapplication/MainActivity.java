@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -107,5 +108,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else{
             uzenet = "Döntetlen!";
         }
+
+        textEredmeny.setText(String.format("Eredmény: Gép: %d - Játékos: %d",gepPontszam,jatekosPontszam));
+        Toast.makeText(MainActivity.this, uzenet, Toast.LENGTH_SHORT).show();
     }
 }

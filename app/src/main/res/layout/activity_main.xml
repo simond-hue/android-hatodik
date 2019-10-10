@@ -22,7 +22,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/textEredmeny"
-            android:background="@drawable/rock"
+            app:srcCompat="@drawable/rock"
             android:id="@+id/imageGep"
             />
         <TextView
@@ -36,7 +36,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/textEredmeny"
-            android:background="@drawable/paper"
+            app:srcCompat="@drawable/paper"
             android:id="@+id/imageUser"
             />
         <TextView
